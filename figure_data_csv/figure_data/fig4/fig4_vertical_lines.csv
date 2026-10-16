@@ -1,0 +1,4 @@
+transistors_T,label,meaning
+5931,WUJI,fabricated die (RV32-WUJI)
+10474,W=1,W=1 core
+27195,W=32,W=32 prefix core

@@ -1,0 +1,4 @@
+curve,d_ppm_per_T,alpha
+"Poisson, 800 ppm/T",800.0,inf (Poisson)
+NB fit to registers,2393.677780123859,30.26993810117868
+"NB, 95% lower bound of alpha",2953.5696716184975,1.2589254117941675

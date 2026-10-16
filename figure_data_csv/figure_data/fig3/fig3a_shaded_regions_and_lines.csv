@@ -1,0 +1,13 @@
+kind,x_start_ppm,x_end_ppm,label,color,alpha,linestyle,linewidth
+optimal-width region (axvspan),1,67.3,W=32 r,#2c5f8a,0.18,,
+optimal-width region (axvspan),67.3,156.0,W=16 r,#1f5c2e,0.18,,
+optimal-width region (axvspan),156.0,249.2,W=8 r,#4c9a4c,0.18,,
+optimal-width region (axvspan),249.2,5000,W=1 r,#b89a86,0.18,,
+ladder boundary (axvline),67.3,67.3,,k,,:,0.6
+ladder boundary (axvline),156.0,156.0,,k,,:,0.6
+ladder boundary (axvline),249.2,249.2,,k,,:,0.6
+"95% band, 898/900 inverters (axvspan)",135,4018,,red,0.07,,
+"95% band, 144-T registers (axvspan)",1830,3040,,red,0.12,,
+per-transistor yield 99.92% (axvline),800,800,800 ppm (99.92 % per T),red,,--,1.3
+898/900 inverters (axvline),1112,1112,898/900 inverters,red,,-.,0.8
+144-T registers 71% (axvline),2378,2378,"144-T registers, 71 %",red,,:,0.8

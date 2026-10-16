@@ -1,0 +1,52 @@
+﻿text,x,y_baseline,text_anchor,class,font
+"M2D core — one microarchitecture, digit width W in {1, 2, 4, 8, 16, 32}",238.0,66.0,start,cap,12px italic
+Instruction,90.0,120.0,middle,tb,14.5px bold
+memory,90.0,139.0,middle,tb,14.5px bold
+Data,90.0,252.0,middle,tb,14.5px bold
+memory,90.0,271.0,middle,tb,14.5px bold
+Register file (external),534.0,480.0,middle,tb,14.5px bold
+"2R1W, three W-bit digit ports + rf_index",534.0,499.0,middle,ts,11.5px
+State,335.0,120.0,middle,tb,14.5px bold
+"digit counter, D = 32/W",335.0,138.0,middle,ts,11.5px
+FSM: 2 stages per digit,335.0,154.0,middle,ts,11.5px
+Decode,335.0,216.0,middle,tb,14.5px bold
+"IR (32 b), opcode, funct3",335.0,234.0,middle,ts,11.5px
+rd / rs1 / rs2,335.0,250.0,middle,ts,11.5px
+ImmDecode,335.0,312.0,middle,tb,14.5px bold
+I / S / B / U / J select,335.0,330.0,middle,ts,11.5px
+32-to-W digit mux,335.0,346.0,middle,ts,11.5px
+PC,534.0,120.0,middle,tb,14.5px bold
+32-bit rotating shift reg.,534.0,138.0,middle,ts,11.5px
+no 32:1 mux at small W,534.0,154.0,middle,ts,11.5px
+Bufreg / Memdat,534.0,216.0,middle,tb,14.5px bold
+32 b each; shifter is,534.0,234.0,middle,ts,11.5px
+pre-shift (W=1) | barrel,534.0,250.0,middle,ts,11.5px
+Digit ALU,534.0,319.0,middle,tb,14.5px bold
+four W-bit adders:,534.0,334.0,middle,ts,11.5px
+ripple (W carry stages),534.0,349.0,middle,ts,11.5px
+or Brent–Kung prefix,534.0,364.0,middle,ts,11.5px
+AND / OR / XOR,534.0,379.0,middle,ts,11.5px
+serial comparator,534.0,394.0,middle,ts,11.5px
+Bus control,733.0,120.0,middle,tb,14.5px bold
+ibus / dbus,733.0,138.0,middle,ts,11.5px
+cyc–ack handshake,733.0,154.0,middle,ts,11.5px
+MEM_IF,733.0,216.0,middle,tb,14.5px bold
+byte / half / word select,733.0,234.0,middle,ts,11.5px
+sign extension,733.0,250.0,middle,ts,11.5px
+Inter-digit state,733.0,312.0,middle,tb,14.5px bold
+"carry_alu, carry_pc,",733.0,330.0,middle,ts,11.5px
+"eq_r, ltu_r — 1 b each",733.0,346.0,middle,ts,11.5px
+ibus_addr,864.0,106.0,start,lbl,11px
+32 b instruction,168.0,126.0,start,lbl,11px
+dbus addr / wdat / sel,884.0,206.0,start,lbl,11px
+dbus_rdat,166.0,244.0,start,lbl,11px
+"rs1 / rs2 digit, W b",474.33,448.67,start,lbl,11px
+"rd digit, W b",604.67,448.67,start,lbl,11px
+"rf_index, rf_addr",329.67,448.67,start,lbl,11px
+"imm, W b",368.0,370.33,start,lbl,11px
+1 b feedback,624.0,386.0,start,lbl,11px
+PC + W,560.0,177.0,start,lbl,11px
+"width-invariant (control, FSM, PC, IR, inter-digit flags)",44.0,512.0,start,ts,11.5px
+scales with W,44.0,482.0,start,ts,11.5px
+control,748.0,512.0,start,ts,11.5px
+data,748.0,484.0,start,ts,11.5px
