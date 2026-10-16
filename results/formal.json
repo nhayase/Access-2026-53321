@@ -1,0 +1,290 @@
+[
+ {
+  "width": 1,
+  "adder": "ripple",
+  "map": {
+   "outputs": 268,
+   "by_hashing": 223,
+   "by_sat": 45,
+   "aig_ands": 1990
+  },
+  "T": 10474,
+  "legalize": {
+   "outputs": 268,
+   "by_hashing": 268,
+   "by_sat": 0,
+   "aig_ands": 1821
+  },
+  "S": 2,
+  "T_c": 15500,
+  "pipeline": {
+   "periods": 2,
+   "outputs": 268,
+   "next_state_by_hashing": 145,
+   "sat_calls": 0,
+   "aig_ands": 3593
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 1.3
+ },
+ {
+  "width": 2,
+  "adder": "ripple",
+  "map": {
+   "outputs": 262,
+   "by_hashing": 251,
+   "by_sat": 11,
+   "aig_ands": 3297
+  },
+  "T": 15705,
+  "legalize": {
+   "outputs": 262,
+   "by_hashing": 262,
+   "by_sat": 0,
+   "aig_ands": 3253
+  },
+  "S": 3,
+  "T_c": 27127,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 262,
+   "next_state_by_hashing": 139,
+   "sat_calls": 0,
+   "aig_ands": 6977
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 0.9
+ },
+ {
+  "width": 4,
+  "adder": "ripple",
+  "map": {
+   "outputs": 262,
+   "by_hashing": 249,
+   "by_sat": 13,
+   "aig_ands": 3461
+  },
+  "T": 16359,
+  "legalize": {
+   "outputs": 262,
+   "by_hashing": 262,
+   "by_sat": 0,
+   "aig_ands": 3409
+  },
+  "S": 3,
+  "T_c": 31703,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 262,
+   "next_state_by_hashing": 138,
+   "sat_calls": 0,
+   "aig_ands": 8162
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 1.5
+ },
+ {
+  "width": 8,
+  "adder": "ripple",
+  "map": {
+   "outputs": 264,
+   "by_hashing": 247,
+   "by_sat": 17,
+   "aig_ands": 3802
+  },
+  "T": 17748,
+  "legalize": {
+   "outputs": 264,
+   "by_hashing": 264,
+   "by_sat": 0,
+   "aig_ands": 3734
+  },
+  "S": 4,
+  "T_c": 38565,
+  "pipeline": {
+   "periods": 4,
+   "outputs": 264,
+   "next_state_by_hashing": 137,
+   "sat_calls": 0,
+   "aig_ands": 10791
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 1.1
+ },
+ {
+  "width": 16,
+  "adder": "ripple",
+  "map": {
+   "outputs": 270,
+   "by_hashing": 245,
+   "by_sat": 25,
+   "aig_ands": 4501
+  },
+  "T": 20649,
+  "legalize": {
+   "outputs": 270,
+   "by_hashing": 270,
+   "by_sat": 0,
+   "aig_ands": 4401
+  },
+  "S": 5,
+  "T_c": 57447,
+  "pipeline": {
+   "periods": 5,
+   "outputs": 270,
+   "next_state_by_hashing": 136,
+   "sat_calls": 0,
+   "aig_ands": 16852
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 2.1
+ },
+ {
+  "width": 32,
+  "adder": "ripple",
+  "map": {
+   "outputs": 284,
+   "by_hashing": 180,
+   "by_sat": 104,
+   "aig_ands": 6248
+  },
+  "T": 25679,
+  "legalize": {
+   "outputs": 284,
+   "by_hashing": 284,
+   "by_sat": 0,
+   "aig_ands": 5521
+  },
+  "S": 8,
+  "T_c": 98448,
+  "pipeline": {
+   "periods": 8,
+   "outputs": 284,
+   "next_state_by_hashing": 135,
+   "sat_calls": 0,
+   "aig_ands": 32491
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 2.5
+ },
+ {
+  "width": 8,
+  "adder": "prefix",
+  "map": {
+   "outputs": 264,
+   "by_hashing": 242,
+   "by_sat": 22,
+   "aig_ands": 3919
+  },
+  "T": 17979,
+  "legalize": {
+   "outputs": 264,
+   "by_hashing": 264,
+   "by_sat": 0,
+   "aig_ands": 3801
+  },
+  "S": 3,
+  "T_c": 34341,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 264,
+   "next_state_by_hashing": 137,
+   "sat_calls": 0,
+   "aig_ands": 9805
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 1.2
+ },
+ {
+  "width": 16,
+  "adder": "prefix",
+  "map": {
+   "outputs": 270,
+   "by_hashing": 200,
+   "by_sat": 70,
+   "aig_ands": 5783
+  },
+  "T": 21327,
+  "legalize": {
+   "outputs": 270,
+   "by_hashing": 270,
+   "by_sat": 0,
+   "aig_ands": 4571
+  },
+  "S": 3,
+  "T_c": 41830,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 270,
+   "next_state_by_hashing": 136,
+   "sat_calls": 0,
+   "aig_ands": 13070
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 2.2
+ },
+ {
+  "width": 32,
+  "adder": "prefix",
+  "map": {
+   "outputs": 284,
+   "by_hashing": 176,
+   "by_sat": 108,
+   "aig_ands": 8177
+  },
+  "T": 27195,
+  "legalize": {
+   "outputs": 284,
+   "by_hashing": 284,
+   "by_sat": 0,
+   "aig_ands": 5893
+  },
+  "S": 4,
+  "T_c": 55960,
+  "pipeline": {
+   "periods": 4,
+   "outputs": 284,
+   "next_state_by_hashing": 135,
+   "sat_calls": 0,
+   "aig_ands": 21294
+  },
+  "minus_one_fails": true,
+  "mutants_detected": [
+   20,
+   20
+  ],
+  "seconds": 4.0
+ }
+]

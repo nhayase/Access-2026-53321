@@ -1,0 +1,254 @@
+[
+ {
+  "width": 1,
+  "adder": "ripple",
+  "map": {
+   "outputs": 1238,
+   "by_hashing": 202,
+   "by_sat": 1036,
+   "aig_ands": 16339
+  },
+  "T_sys": 72869,
+  "legalize": {
+   "outputs": 1238,
+   "by_hashing": 1238,
+   "by_sat": 0,
+   "aig_ands": 11169
+  },
+  "S": 3,
+  "T_sys_c": 104581,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 1238,
+   "next_state_by_hashing": 1137,
+   "sat_calls": 0,
+   "aig_ands": 28288
+  },
+  "minus_one_fails": true,
+  "seconds": 44.5
+ },
+ {
+  "width": 2,
+  "adder": "ripple",
+  "map": {
+   "outputs": 1232,
+   "by_hashing": 232,
+   "by_sat": 1000,
+   "aig_ands": 16612
+  },
+  "T_sys": 74861,
+  "legalize": {
+   "outputs": 1232,
+   "by_hashing": 1232,
+   "by_sat": 0,
+   "aig_ands": 12073
+  },
+  "S": 3,
+  "T_sys_c": 114645,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 1232,
+   "next_state_by_hashing": 1131,
+   "sat_calls": 0,
+   "aig_ands": 30058
+  },
+  "minus_one_fails": true,
+  "seconds": 47.2
+ },
+ {
+  "width": 4,
+  "adder": "ripple",
+  "map": {
+   "outputs": 1231,
+   "by_hashing": 231,
+   "by_sat": 1000,
+   "aig_ands": 16261
+  },
+  "T_sys": 73939,
+  "legalize": {
+   "outputs": 1231,
+   "by_hashing": 1231,
+   "by_sat": 0,
+   "aig_ands": 11962
+  },
+  "S": 3,
+  "T_sys_c": 114079,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 1231,
+   "next_state_by_hashing": 1130,
+   "sat_calls": 0,
+   "aig_ands": 23488
+  },
+  "minus_one_fails": true,
+  "seconds": 91.5
+ },
+ {
+  "width": 8,
+  "adder": "ripple",
+  "map": {
+   "outputs": 1230,
+   "by_hashing": 230,
+   "by_sat": 1000,
+   "aig_ands": 16333
+  },
+  "T_sys": 75144,
+  "legalize": {
+   "outputs": 1230,
+   "by_hashing": 1230,
+   "by_sat": 0,
+   "aig_ands": 12142
+  },
+  "S": 4,
+  "T_sys_c": 128085,
+  "pipeline": {
+   "periods": 4,
+   "outputs": 1230,
+   "next_state_by_hashing": 1129,
+   "sat_calls": 0,
+   "aig_ands": 25917
+  },
+  "minus_one_fails": true,
+  "seconds": 15.2
+ },
+ {
+  "width": 16,
+  "adder": "ripple",
+  "map": {
+   "outputs": 1229,
+   "by_hashing": 229,
+   "by_sat": 1000,
+   "aig_ands": 16875
+  },
+  "T_sys": 77468,
+  "legalize": {
+   "outputs": 1229,
+   "by_hashing": 1229,
+   "by_sat": 0,
+   "aig_ands": 12714
+  },
+  "S": 5,
+  "T_sys_c": 155112,
+  "pipeline": {
+   "periods": 5,
+   "outputs": 1229,
+   "next_state_by_hashing": 1128,
+   "sat_calls": 0,
+   "aig_ands": 31853
+  },
+  "minus_one_fails": true,
+  "seconds": 25.7
+ },
+ {
+  "width": 32,
+  "adder": "ripple",
+  "map": {
+   "outputs": 1228,
+   "by_hashing": 165,
+   "by_sat": 1063,
+   "aig_ands": 18439
+  },
+  "T_sys": 82020,
+  "legalize": {
+   "outputs": 1228,
+   "by_hashing": 1228,
+   "by_sat": 0,
+   "aig_ands": 13712
+  },
+  "S": 8,
+  "T_sys_c": 212955,
+  "pipeline": {
+   "periods": 8,
+   "outputs": 1228,
+   "next_state_by_hashing": 1127,
+   "sat_calls": 0,
+   "aig_ands": 46790
+  },
+  "minus_one_fails": true,
+  "seconds": 10.4
+ },
+ {
+  "width": 8,
+  "adder": "prefix",
+  "map": {
+   "outputs": 1230,
+   "by_hashing": 228,
+   "by_sat": 1002,
+   "aig_ands": 16424
+  },
+  "T_sys": 75379,
+  "legalize": {
+   "outputs": 1230,
+   "by_hashing": 1230,
+   "by_sat": 0,
+   "aig_ands": 12209
+  },
+  "S": 3,
+  "T_sys_c": 116402,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 1230,
+   "next_state_by_hashing": 1129,
+   "sat_calls": 0,
+   "aig_ands": 24230
+  },
+  "minus_one_fails": true,
+  "seconds": 91.4
+ },
+ {
+  "width": 16,
+  "adder": "prefix",
+  "map": {
+   "outputs": 1229,
+   "by_hashing": 184,
+   "by_sat": 1045,
+   "aig_ands": 18157
+  },
+  "T_sys": 78146,
+  "legalize": {
+   "outputs": 1229,
+   "by_hashing": 1229,
+   "by_sat": 0,
+   "aig_ands": 12884
+  },
+  "S": 3,
+  "T_sys_c": 123853,
+  "pipeline": {
+   "periods": 3,
+   "outputs": 1229,
+   "next_state_by_hashing": 1128,
+   "sat_calls": 0,
+   "aig_ands": 25590
+  },
+  "minus_one_fails": true,
+  "seconds": 47.0
+ },
+ {
+  "width": 32,
+  "adder": "prefix",
+  "map": {
+   "outputs": 1228,
+   "by_hashing": 161,
+   "by_sat": 1067,
+   "aig_ands": 20368
+  },
+  "T_sys": 83540,
+  "legalize": {
+   "outputs": 1228,
+   "by_hashing": 1228,
+   "by_sat": 0,
+   "aig_ands": 14084
+  },
+  "S": 4,
+  "T_sys_c": 139817,
+  "pipeline": {
+   "periods": 4,
+   "outputs": 1228,
+   "next_state_by_hashing": 1127,
+   "sat_calls": 0,
+   "aig_ands": 30336
+  },
+  "minus_one_fails": true,
+  "seconds": 14.6
+ }
+]

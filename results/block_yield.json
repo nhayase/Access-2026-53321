@@ -1,0 +1,116 @@
+{
+ "data": [
+  {
+   "label": "transistor",
+   "T": 1,
+   "k": 0.9992,
+   "n": null,
+   "Y": 0.9992,
+   "Y_lo": null,
+   "Y_hi": null,
+   "d_ppm": 800.3201707691552,
+   "d_lo_ppm": null,
+   "d_hi_ppm": null
+  },
+  {
+   "label": "inverter",
+   "T": 2,
+   "k": 898,
+   "n": 900,
+   "Y": 0.9977777777777778,
+   "Y_lo": 0.991995835955157,
+   "Y_hi": 0.9997307651896261,
+   "d_ppm": 1112.3475110555812,
+   "d_lo_ppm": 134.6355302860671,
+   "d_hi_ppm": 4018.184665962084
+  },
+  {
+   "label": "8-bit register",
+   "T": 144,
+   "k": 159,
+   "n": 224,
+   "Y": 0.7098214285714286,
+   "Y_lo": 0.6456433497939729,
+   "Y_hi": 0.7683501003093061,
+   "d_ppm": 2380.1517335750577,
+   "d_lo_ppm": 1829.9290967307275,
+   "d_hi_ppm": 3038.250123330563
+  },
+  {
+   "label": "64-bit register",
+   "T": 1152,
+   "k": 2,
+   "n": 28,
+   "Y": 0.07142857142857142,
+   "Y_lo": 0.008770496703527133,
+   "Y_hi": 0.23503477317459073,
+   "d_ppm": 2290.8483764021344,
+   "d_lo_ppm": 1256.9633722473047,
+   "d_hi_ppm": 4111.42520619764
+  }
+ ],
+ "d_hat_ppm": 2393.677780123859,
+ "alpha_hat": 30.26993810117868,
+ "alpha_ci": [
+  1.2589254117941675,
+  null
+ ],
+ "d_ci_ppm": [
+  1895.9061200536264,
+  3260.3533233217827
+ ],
+ "d_poisson_ppm": 2362.9711480771603,
+ "lr_poisson": 0.01777591026848313,
+ "p_poisson": 0.8939353051654709,
+ "p_alpha_star": {
+  "delay budget, 1 kHz, die": {
+   "alpha_star": 5.0,
+   "p": 0.5637465200747114
+  },
+  "delay budget, fmax, die": {
+   "alpha_star": 3.7,
+   "p": 0.4340829061863669
+  },
+  "delay budget, 1 kHz, area": {
+   "alpha_star": 3.1,
+   "p": 0.355843626138142
+  },
+  "cascade, die": {
+   "alpha_star": 2.1,
+   "p": 0.19659935906815962
+  },
+  "cascade, area": {
+   "alpha_star": 0.9,
+   "p": 0.01846630125870313
+  }
+ },
+ "selection": {
+  "fit": {
+   "d_ppm": 2393.677780123859,
+   "alpha": 30.26993810117868,
+   "delay budget, 1 kHz": "W=1 ripple",
+   "delay budget, fmax": "W=1 ripple",
+   "cascade": "W=1 ripple"
+  },
+  "alpha lower 95 %": {
+   "d_ppm": 2953.5696716184975,
+   "alpha": 1.2589254117941675,
+   "delay budget, 1 kHz": "W=32 ripple",
+   "delay budget, fmax": "W=16 prefix",
+   "cascade": "W=16 prefix"
+  },
+  "800 ppm/T, fitted alpha": {
+   "d_ppm": 800.0,
+   "alpha": 30.26993810117868,
+   "delay budget, 1 kHz": "W=1 ripple",
+   "delay budget, fmax": "W=1 ripple",
+   "cascade": "W=1 ripple"
+  }
+ },
+ "die_yield_fit": {
+  "5931": 8.793693278138206e-06,
+  "10474": 1.1698407271298822e-08,
+  "15500": 3.0351415266686745e-11,
+  "27195": 8.203627605410898e-16
+ }
+}

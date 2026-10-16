@@ -1,0 +1,9 @@
+width,adder,transistors,depth,delay_us
+4,ripple,172,12,85.8
+4,prefix,190,7,55.0
+8,ripple,344,24,164.5
+8,prefix,421,11,83.2
+16,ripple,688,48,321.9
+16,prefix,912,16,118.5
+32,ripple,1376,96,636.8
+32,prefix,1895,20,149.8
