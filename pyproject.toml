@@ -1,0 +1,32 @@
+[project]
+name = "m2d"
+version = "0.6.8"
+description = "M2D: a width-parameterized digit-serial RV32I core and design-space study for MoS2 2D-semiconductor technology (RV32-WUJI PDK model)"
+license = {file = "LICENSE.txt"}
+requires-python = ">=3.11"   # numpy==2.4.4 (pinned) requires 3.11+
+# Exact versions used for the results in paper/manuscript_v22.md (IEEE Access
+# reproducibility package); looser ranges will normally also work.
+dependencies = [
+    "amaranth[builtin-yosys]==0.5.9",
+    "yowasp-yosys==0.68.0.0.post1208",
+    "numpy==2.4.4",
+    "python-sat>=1.8.dev1",       # CaDiCaL for m2d/pdk2d/formal.py
+    "scipy==1.17.1",              # tools/block_yield.py
+]
+
+[project.optional-dependencies]
+figs = ["matplotlib==3.10.8"]
+
+[project.scripts]
+m2d = "cli:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["m2d", "m2d.units", "m2d.pdk2d"]
+py-modules = ["cli"]
+
+[tool.setuptools.package-data]
+m2d = ["*.md"]
